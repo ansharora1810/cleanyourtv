@@ -1,0 +1,27 @@
+{
+  "created": "2026-11-09T21:52:17+0000",
+  "home": "com.google.android.apps.tv.launcherx/.home.HomeActivity",
+  "host": "10.223.93.44",
+  "list": "/Users/ansh.arora/Documents/personal/cleanyourtv/work/bedroom-projector/debloat.txt",
+  "packages": {
+    "com.google.android.apps.nbu.smartconnect.tv": "enabled",
+    "com.google.android.apps.tv.launcherx": "enabled",
+    "com.google.android.feedback": "enabled",
+    "com.google.android.katniss": "enabled",
+    "com.google.android.play.games": "enabled",
+    "com.google.android.tungsten.setupwraith": "enabled",
+    "com.google.android.tv.assistant": "enabled",
+    "com.google.android.youtube.tvmusic": "enabled",
+    "com.jmgo.helpcenter": "enabled",
+    "com.jmgo.player": "enabled",
+    "com.jmgo.spider": "enabled",
+    "com.mediatek.android.leanbacklauncher.partnercustomizer": "enabled",
+    "fusion.android.tv.demo": "enabled"
+  },
+  "settings": {
+    "animator_duration_scale": "null",
+    "transition_animation_scale": "1.0",
+    "window_animation_scale": "1.0"
+  },
+  "version": 1
+}

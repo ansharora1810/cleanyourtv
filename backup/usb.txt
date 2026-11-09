@@ -1,0 +1,4 @@
+      host_connected=false
+Transports: CELLULAR
+Transports: ETHERNET
+Transports: WIFI

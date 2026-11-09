@@ -1,0 +1,3 @@
+    mResumedActivity: ActivityRecord{80cddb1 u0 com.android.tv.settings/.MainSettings t543}
+  ResumedActivity: ActivityRecord{80cddb1 u0 com.android.tv.settings/.MainSettings t543}
+  mFocusedApp=ActivityRecord{80cddb1 u0 com.android.tv.settings/.MainSettings t543}

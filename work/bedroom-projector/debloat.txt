@@ -1,0 +1,33 @@
+# JMGO N1S 4K projector (S91A, lonavla), Google TV on Android 11 (SDK 30), firmware RTMA.250416.195
+# Started from examples/jmgo-n1s-4k-lonavla (Android 14), with the owner's picks:
+#   kept: YouTube, Netflix, Prime Video, Chromecast, Google screensaver
+#   off by choice: Google Assistant (the mic button stops working), JMGO player, YouTube Music, Play Games
+# Not on this firmware: com.android.tv.feedbackconsent
+# Never disable: com.jmgo.hippo, autofocus, keystone, dewarping, ptz, autobrightness, autocolortemp,
+#   a2dpsinkservice, remotecontrolota, factory, and every com.mediatek.* and com.dolby.* package
+#   except the partner-row customizer.
+#
+# Apply:   TV_HOST=<tv ip> tools/disable.sh work/bedroom-projector/debloat.txt
+# Undo:    TV_HOST=<tv ip> tools/restore.sh work/bedroom-projector/debloat.txt com.google.android.apps.tv.launcherx
+
+# Batch 1: telemetry, help centre, retail demo
+com.jmgo.spider                        # JMGO tracker
+com.jmgo.helpcenter                    # help centre
+fusion.android.tv.demo                 # store demo loop
+com.google.android.feedback            # Google feedback
+
+# Batch 2: preloads and partner rows
+com.google.android.play.games
+com.google.android.youtube.tvmusic
+com.mediatek.android.leanbacklauncher.partnercustomizer
+com.jmgo.player                       # JMGO media player, off by choice
+
+# Batch 3: Assistant, off by choice
+com.google.android.katniss
+com.google.android.tv.assistant
+
+# Batch 4: after the hotspot is forgotten and re-joined in Settings
+com.google.android.tungsten.setupwraith
+
+# Added after setup: Google data-saver VPN, owner does not use it
+com.google.android.apps.nbu.smartconnect.tv

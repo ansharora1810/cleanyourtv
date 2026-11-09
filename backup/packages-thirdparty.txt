@@ -1,0 +1,11 @@
+package:com.phlox.tvwebbrowser
+package:com.lonelycatgames.Xplore
+package:com.nuvio.tv
+package:org.localsend.localsend_app
+package:com.screen.casting.x
+package:com.iqiyi.i18n.tv
+package:com.twentyfouri.tvbridge.rte
+package:com.apple.atve.androidtv.appletv
+package:org.jellyfin.androidtv
+package:com.disney.disneyplus
+package:com.jmgo.overseas.atmosphere
